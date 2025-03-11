@@ -19,6 +19,7 @@ class Cart {
   void viewCart() {
     if (products.isEmpty) {
       print('Your cart is empty.');
+      return;
     }
     print('Your Cart:\n');
     for (var product in products) {
